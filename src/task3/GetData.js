@@ -17,6 +17,7 @@ const GetData = ({ access, loading }) => {
       console.log(response);
       const data = response.data;
       console.log(data);
+      setState([data[2], data[4], data[5], data[8], data[10], data[11]]);
     } catch (error) {
       console.log(error.response);
     }
