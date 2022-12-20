@@ -211,12 +211,12 @@ const SignUp = () => {
               </p>
             </div>
             <div className="flex justify-around mt-[3.75rem]">
-              <button className="  text-black" onClick={handlePrevPage}>
+              {/* <button className="  text-black" onClick={handlePrevPage}>
                 Back
-              </button>
+              </button> */}
               <button
                 className="bg-[#3B8BEA] rounded-md w-[5rem] text-white hover:text-[#3B8BEA] hover:border-[#3B8BEA] border hover:bg-white "
-                onClick={handleNextPage}
+                onClick={handleSubmitSignUp}
               >
                 Next
               </button>
